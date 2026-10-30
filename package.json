@@ -1,0 +1,30 @@
+{
+	"name": "@lorem_ipsum",
+	"private": true,
+	"type": "module",
+	"workspaces": [
+		"entry/*",
+		"core",
+		"infrastructure"
+	],
+	"scripts": {
+		"dev:web": "npm run dev -w @lorem_ipsum/web",
+		"build:web": "npm run build -w @lorem_ipsum/web",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"format": "prettier --write .",
+		"format:check": "prettier --check ."
+	},
+	"devDependencies": {
+		"@eslint/js": "^10.0.1",
+		"eslint": "^10.13.0",
+		"eslint-config-prettier": "^10.0.0",
+		"eslint-plugin-jsdoc": "^62.0.0",
+		"eslint-plugin-react-hooks": "^7.1.1",
+		"eslint-plugin-react-refresh": "^0.5.7",
+		"globals": "^17.13.0",
+		"prettier": "^3.6.0",
+		"typescript": "~7.0.2",
+		"typescript-eslint": "^8.72.0"
+	}
+}

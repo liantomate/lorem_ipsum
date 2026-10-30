@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"target": "ES2023",
+		"skipLibCheck": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true,
+		"erasableSyntaxOnly": true
+	}
+}
